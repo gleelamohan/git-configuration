@@ -7,7 +7,10 @@
 
    1) Open Terminal.
    2) Paste the text below, substituting in your GitHub Enterprise email address.
-      -->ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+      ```
+      ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+      
+      ```
       
    3) When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
        Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
